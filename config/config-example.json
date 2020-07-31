@@ -1,0 +1,15 @@
+{
+  "@context": "https://linkedsoftwaredependencies.org/bundles/npm/@ldf/server/^3.0.0/components/context.jsonld",
+  "@id": "urn:ldf-server:my",
+  "import": "preset-qpf:config-defaults.json",
+
+  "datasources": [
+    {
+      "@id": "ex:register",
+      "@type": "SummaryDatasource",
+      "datasourceTitle": "Summary register for source selection",
+      "description": "My dataset with a Summaries back-end",
+      "dir": "/received-summaries"
+    }
+  ]
+}

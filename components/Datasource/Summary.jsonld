@@ -1,0 +1,34 @@
+{
+  "@context": [
+    "https://linkedsoftwaredependencies.org/bundles/npm/@ldf/core/^3.0.0/components/context.jsonld",
+    "https://linkedsoftwaredependencies.org/bundles/npm/@ldf/datasource-summary/^3.0.0/components/context.jsonld"
+  ],
+  "@id": "npmd:@ldf/datasource-summary",
+  "components": [
+    {
+      "@id": "ldfdn:Datasource/Summary",
+      "@type": "Class",
+      "extends": "ldfc:Datasource",
+      "requireElement": "datasources.SummaryDatasource",
+      "comment": "A Summary Datasource creates an index from from data documents",
+      "parameters": [
+        {
+          "@id": "ldfc:Datasource/Summary#dir",
+          "comment": "The summary directory path",
+          "range": "xsd:string",
+          "unique": true
+        }
+      ],
+      "constructorArguments": {
+        "@id": "ldfc:Datasource/Summary#constructorArgumentsObject",
+        "extends": "ldfc:Datasource#constructorArgumentsObject",
+        "fields": [
+          {
+            "keyRaw": "dir",
+            "value": "ldfc:Datasource/Summary#dir"
+          }
+        ]
+      }
+    }
+  ]
+}
