@@ -11,7 +11,7 @@ _This package is a [Linked Data Fragments Server module](https://github.com/Link
 ## Usage in `@ldf/server`
 
 This package exposes the following config entries:
-* `NQuadsDatasource`: An N-Quads datasource that requires at least one `file` field. _Should be used as `@type` value._
+* `SummaryDatasource`: A Summary datasource that requires a `dir` field. _Should be used as `@type` value._
 
 Example:
 ```json
