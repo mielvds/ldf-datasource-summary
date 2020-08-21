@@ -25,7 +25,7 @@
     "url": "https://github.com/mielvds/ldf-datasource-summary/issues"
   },
   "scripts": {
-    "mocha": "mocha \"test/**/*-test.js\" --recursive --timeout 500",
+    "mocha": "mocha \"test/**/*-test.js\" --recursive --require ./test/test-setup --timeout 500",
     "test": "nyc npm run mocha",
     "lint": "eslint bin/* lib test"
   },
