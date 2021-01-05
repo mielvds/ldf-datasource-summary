@@ -1,4 +1,4 @@
-# Linked Data Fragments Server - N3 Datasources
+# Linked Data Fragments Server - Summary Datasources
 <img src="http://linkeddatafragments.org/images/logo.svg" width="200" align="right" alt="" />
 
 [![npm version](https://badge.fury.io/js/%40ldf%2Fdatasource-summary.svg)](https://www.npmjs.com/package/@ldf/datasource-summary)
