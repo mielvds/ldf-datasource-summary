@@ -1,7 +1,7 @@
 # Linked Data Fragments Server - Summary Datasources
 <img src="http://linkeddatafragments.org/images/logo.svg" width="200" align="right" alt="" />
 
-[![npm version](https://badge.fury.io/js/%40ldf%2Fdatasource-summary.svg)](https://www.npmjs.com/package/@ldf/datasource-summary)
+[![npm version](https://badge.fury.io/js/%40ldf%2Fdatasource-summary.svg)](https://www.npmjs.com/package/ldf-datasource-summary)
 
 This module contains a Summary datasource for the [Linked Data Fragments server](https://github.com/LinkedDataFragments/Server.js).
 It allows summary files to be loaded, indexed and used as a datasource.
@@ -31,11 +31,11 @@ Example:
   ]
 }
 ```
-
+<!--
 ## Usage in other packages
 
 When this module is used in a package other than `@ldf/server`,
-then the JSON-LD context `https://linkedsoftwaredependencies.org/contexts/@ldf/datasource-summary.jsonld` must be imported.
+then the JSON-LD context `https://linkedsoftwaredependencies.org/contexts/ldf-datasource-summary.jsonld` must be imported.
 
 For example:
 ```
@@ -48,6 +48,7 @@ For example:
   // Same as above...
 }
 ```
+-->
 
 ## License
 The Summary datasource module  is written by Miel Vander Sande.
