@@ -4,7 +4,7 @@
     {
       "npmd": "https://linkedsoftwaredependencies.org/bundles/npm/",
       "ldfdn": "npmd:ldf-datasource-summary/",
-      "files-ldfdn": "ldfdn:^3.0.0/",
+      "files-ldfdn": "ldfdn:^0.0.1/",
 
       "SummaryDatasource": "ldfdn:Datasource/Summary"
     }

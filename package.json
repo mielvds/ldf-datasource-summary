@@ -5,10 +5,10 @@
   "lsd:module": "https://linkedsoftwaredependencies.org/bundles/npm/ldf-datasource-summary",
   "lsd:components": "components/components.jsonld",
   "lsd:contexts": {
-    "https://linkedsoftwaredependencies.org/bundles/npm/@ldf/datasource-summary/^3.0.0/components/context.jsonld": "components/context.jsonld"
+    "https://linkedsoftwaredependencies.org/bundles/npm/ldf-datasource-summary/^0.0.1/components/context.jsonld": "components/context.jsonld"
   },
   "lsd:importPaths": {
-    "https://linkedsoftwaredependencies.org/bundles/npm/@ldf/datasource-summary/^3.0.0/components/": "components/"
+    "https://linkedsoftwaredependencies.org/bundles/npm/ldf-datasource-summary/^0.0.1/components/": "components/"
   },
   "license": "MIT",
   "main": "index.js",
