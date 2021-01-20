@@ -3,10 +3,10 @@
     "https://linkedsoftwaredependencies.org/bundles/npm/componentsjs/^3.0.0/components/context.jsonld",
     {
       "npmd": "https://linkedsoftwaredependencies.org/bundles/npm/",
-      "ldfdn": "npmd:ldf-datasource-summary/",
-      "files-ldfdn": "ldfdn:^0.0.1/",
+      "ldfdsm": "npmd:ldf-datasource-summary/",
+      "files-ldfdsm": "ldfdsm:^0.0.1/",
 
-      "SummaryDatasource": "ldfdn:Datasource/Summary"
+      "SummaryDatasource": "ldfdsm:Datasource/Summary"
     }
   ]
 }

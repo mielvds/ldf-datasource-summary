@@ -4,6 +4,6 @@
   "@type": "Module",
   "requireName": "ldf-datasource-summary",
   "import": [
-    "files-ldfdn:components/Datasource/Summary.jsonld"
+    "files-ldfdsm:components/Datasource/Summary.jsonld"
   ]
 }

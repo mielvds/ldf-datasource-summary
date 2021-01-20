@@ -6,26 +6,26 @@
   "@id": "npmd:ldf-datasource-summary",
   "components": [
     {
-      "@id": "ldfdn:Datasource/Summary",
+      "@id": "ldfdsm:Datasource/Summary",
       "@type": "Class",
       "extends": "ldfc:Datasource",
       "requireElement": "datasources.SummaryDatasource",
       "comment": "A Summary Datasource creates an index from from data documents",
       "parameters": [
         {
-          "@id": "ldfc:Datasource/Summary#dir",
+          "@id": "ldfdsm:Datasource/Summary#dir",
           "comment": "The summary directory path",
           "range": "xsd:string",
           "unique": true
         }
       ],
       "constructorArguments": {
-        "@id": "ldfc:Datasource/Summary#constructorArgumentsObject",
+        "@id": "ldfdsm:Datasource/Summary#constructorArgumentsObject",
         "extends": "ldfc:Datasource#constructorArgumentsObject",
         "fields": [
           {
             "keyRaw": "dir",
-            "value": "ldfc:Datasource/Summary#dir"
+            "value": "ldfdsm:Datasource/Summary#dir"
           }
         ]
       }
