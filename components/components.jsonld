@@ -1,5 +1,14 @@
 {
-  "@context": "https://linkedsoftwaredependencies.org/bundles/npm/ldf-datasource-summary/^0.0.1/components/context.jsonld",
+  "@context": [
+    "https://linkedsoftwaredependencies.org/bundles/npm/componentsjs/^4.0.0/components/context.jsonld",
+    {
+      "npmd": "https://linkedsoftwaredependencies.org/bundles/npm/",
+      "ldfdsm": "npmd:ldf-datasource-summary/",
+      "files-ldfdsm": "ldfdsm:^0.0.1/",
+
+      "SummaryDatasource": "ldfdsm:Datasource/Summary"
+    }
+  ],
   "@id": "npmd:ldf-datasource-summary",
   "@type": "Module",
   "requireName": "ldf-datasource-summary",
