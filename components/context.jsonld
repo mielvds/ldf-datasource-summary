@@ -6,7 +6,8 @@
       "ldfdsm": "npmd:ldf-datasource-summary/",
       "files-ldfdsm": "ldfdsm:^0.0.0/",
 
-      "SummaryDatasource": "ldfdsm:Datasource/Summary"
+      "SummaryDatasource": "ldfdsm:Datasource/Summary",
+      "dir": "ldfdsm:Datasource/Summary#dir"
     }
   ]
 }
